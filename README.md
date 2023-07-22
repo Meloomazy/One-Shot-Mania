@@ -1,6 +1,8 @@
 ### One Shot Mania Psych Engine Port
-ported to psych engine as mod folder (WARNING! its not fully completed)
-for now the available song are **Sacrifice** and its not fully finished but playable !!You may receive some lag spike while playing it!!
+ported to psych engine as mod folder
+for now the available song are
+⋅⋅***Sacrifice** and its not fully finished but playable
+!!You may receive some lag spike while playing it!!
 
 ### TO DO LIST
 1. do **My Rumble** after finishing **Sacrifice** (soon)
