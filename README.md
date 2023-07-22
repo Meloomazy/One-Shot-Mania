@@ -1,4 +1,4 @@
-### One-Shot-Mania
+### One Shot Mania Psych Engine Port
 ported to psych engine as mod folder (WARNING! its not fully completed)
 for now the available song are **Sacrifice** and its not fully finished but playable !!You may receive some lag spike while playing it!!
 
