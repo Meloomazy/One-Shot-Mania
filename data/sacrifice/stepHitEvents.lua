@@ -1,12 +1,12 @@
 local deimosEvents = {
-    [192] = function()
+    [202] = function()
         setProperty('grunt1.alpha',1)
 		playAnim('grunt1','intro',true)
     end,
-    [235] = function()
+    [245] = function()
 		setObjectOrder('grunt1',getObjectOrder('bg6')+1)
 		playAnim('grunt1','fall',true)
-		doTweenY('gruntFall','grunt1',800,4)
+		doTweenY('gruntFall','grunt1',600,4)
     end,
 	[544] = function()
 		setProperty('defaultCamZoom',0.83)

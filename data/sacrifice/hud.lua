@@ -15,15 +15,15 @@ function onCreate()
     setProperty('barDown.flipY',downscroll)
     addLuaSprite('barDown')
 
-    makeAnimatedLuaSprite('healthBarDei','hud/deimos/bar-down',880,30)
+    makeAnimatedLuaSprite('healthBarDei','hud/deimos/'..(downscroll and 'bar-down' or 'bar'),880,30)
     addAnimationByPrefix('healthBarDei','health','health',24,false)
     addAnimationByIndices('healthBarDei','dead','load','6,5,4,3,2,1,0',24)
     addAnimationByPrefix('healthBarDei','load','load',24,false)
     scaleObject('healthBarDei',0.665551839464883,0.665551839464883)
     setObjectCamera('healthBarDei','camHUD')
-    addLuaSprite('healthBarDei',true)
+    addLuaSprite('healthBarDei')
 
-    makeAnimatedLuaSprite('gfDialogue','hud/deimos/gfText',70,10)
+    makeAnimatedLuaSprite('gfDialogue','hud/deimos/gfText',70,(downscroll and 10 or 445))
 	addAnimationByPrefix('gfDialogue','dial','GF TEXT',24,false)
 	scaleObject('gfDialogue',0.666288308740068,0.666288308740068)
 	setProperty('gfDialogue.alpha',0.01)
@@ -67,6 +67,7 @@ function onCreatePost()
         if getPropertyFromGroup('unspawnNotes',n,'isSustainNote') then
             setPropertyFromGroup('unspawnNotes',n,'copyAlpha',false)
             setPropertyFromGroup('unspawnNotes',n,'alpha',1)
+            setPropertyFromGroup('unspawnNotes',n,'offsetX', getPropertyFromGroup('unspawnNotes',n,'offsetX') + 5)
         end
         if getPropertyFromGroup('unspawnNotes',n,'noteType') == 'bulletMC' then
         else
@@ -117,7 +118,7 @@ function createSplashPL(di,nt) -- kinda buggy but eh..
     slP = slP + 1
     local tag = 'CSplashesP'..slP
     local anims = {'purple','blue','green','red'}
-    makeAnimatedLuaSprite(tag, (nt == 'bulletMC' and 'bullet' or 'bfSplash'), getPropertyFromGroup('playerStrums',di,'x') - 130, getPropertyFromGroup('playerStrums',di,'y') + (nt == 'bulletMC' and -130 or -150))
+    makeAnimatedLuaSprite(tag, (nt == 'bulletMC' and 'bullet' or 'bfSplash'), getPropertyFromGroup('playerStrums',di,'x') + (nt == 'bulletMC' and -120 or -130), getPropertyFromGroup('playerStrums',di,'y') + (nt == 'bulletMC' and -120 or -150))
     addAnimationByPrefix(tag, anims[di+1], 'note splash '..anims[di+1]..' '..getRandomInt(1,2), 32, false)
     setObjectCamera(tag,'camHUD')
     runHaxeCode([[
@@ -130,7 +131,7 @@ function createSplashOP(di,nt) -- kinda buggy but eh..
     slO = slO + 1
     local tag = 'CSplashesO'..slO
     local anims = {'purple','blue','green','red'}
-    makeAnimatedLuaSprite(tag, (nt == 'bulletMC' and 'bullet' or 'deimosSplash'), getPropertyFromGroup('opponentStrums',di,'x') - 110, getPropertyFromGroup('opponentStrums',di,'y') + (nt == 'bulletMC' and -130 or -80))
+    makeAnimatedLuaSprite(tag, (nt == 'bulletMC' and 'bullet' or 'deimosSplash'), getPropertyFromGroup('opponentStrums',di,'x') - 100, getPropertyFromGroup('opponentStrums',di,'y') + (nt == 'bulletMC' and -130 or -80))
     addAnimationByPrefix(tag, anims[di+1], 'note splash '..anims[di+1]..' '..getRandomInt(1,2), 32, false)
     runHaxeCode([[
         game.getLuaObject(']]..tag..[[').camera = strumHUD;

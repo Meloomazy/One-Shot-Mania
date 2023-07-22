@@ -96,7 +96,7 @@ function onCustomSubstateUpdatePost(n,e)
     
             playSound('deimos_acept',1)
             cameraFlash('camHUD','ff0000',1)
-            setProperty('camGame.zoom',0.64)
+            setProperty('camGame.zoom',0.72)
             runTimer('startSong',2.5)
             setProperty('camFollow.x',200)
             setProperty('camFollow.y',-2270)
@@ -106,6 +106,12 @@ function onCustomSubstateUpdatePost(n,e)
             setProperty('gf.alpha',1)
             setProperty('dad.alpha',1)
             if standard then
+            else
+                for n = 0,getProperty('unspawnNotes.length')-1 do
+                    if getPropertyFromGroup('unspawnNotes',n,'noteType') == 'bulletMC' then
+                        setPropertyFromGroup('unspawnNotes',n,'missHealth', 2)
+                    end
+                end
             end
         end
         if keyJustPressed('back') then

@@ -16,10 +16,10 @@ end
 function onCreatePost()
 	if intro then
         setProperty('healthBarDei.alpha',0.01)
-        setProperty('healthBarDei.y',-200)
-        setProperty('scoreImpact.y',795)
-        setProperty('barTop.y',795)
-        setProperty('barDown.y',-345)
+        setProperty('healthBarDei.y',655)
+        setProperty('scoreImpact.y',(downscroll and 815 or -150))
+        setProperty('barTop.y',(downscroll and 795 or -355))
+        setProperty('barDown.y',(downscroll and -345 or 850))
         for i = 0,7 do
             setPropertyFromGroup('strumLineNotes',i,'visible',false)
         end
@@ -35,10 +35,10 @@ function onTweenCompleted(t)
 end
 function onStepHit()
     if curStep == 255 then
-        doTweenY('healthBarDeiIntro','healthBarDei',(downscroll and 30 or 0),3.5,'quadInOut')
-        doTweenY('scoreImpactIntro','scoreImpact',(downscroll and 625 or 0),3.5,'quadInOut')
-        doTweenY('barTopIntro','barTop',(downscroll and 565 or 0),3.5,'quadInOut')
-        doTweenY('barDownIntro','barDown',(downscroll and -155 or 0),3.5,'quadInOut')
+        doTweenY('healthBarDeiIntro','healthBarDei',(downscroll and 30 or 455),3.5,'quadInOut')
+        doTweenY('scoreImpactIntro','scoreImpact',(downscroll and 625 or 50),3.5,'quadInOut')
+        doTweenY('barTopIntro','barTop',(downscroll and 565 or -155),3.5,'quadInOut')
+        doTweenY('barDownIntro','barDown',(downscroll and -155 or 500),3.5,'quadInOut')
     end
     if curStep == 288 then
         setProperty('healthBarDei.alpha',1)

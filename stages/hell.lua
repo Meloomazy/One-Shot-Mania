@@ -29,23 +29,6 @@ function onCreate()
 	setProperty('flicker.alpha',0.01)
 	addLuaSprite('flicker')
 ---
-	runHaxeCode([[
-		game.initLuaShader('BgDeimos');
-		game.initLuaShader('TvGlitch');
-		game.initLuaShader('amongus');
-
-		bgDeim = game.createRuntimeShader('BgDeimos');
-		TvG = game.createRuntimeShader('TvGlitch');
-		ray = game.createRuntimeShader('amongus');
-		ray.setFloat('FlashIntensity',1);
-
-		deimosAction = new Character(-765,-5,'deimos-Action');
-		deimosAction.alpha = 0.01;
-		game.variables.set('deimosAction',deimosAction);
-		game.addBehindDad(deimosAction);
-
-	//--IGNORE THIS, IT SUPPOSE TO BE (my) ALTERNATIVE WAY TO CACHING--\\
-	]])
 
 -- the the uhh stage i guess
 	makeLuaSprite('sky','bgs/deimos/sky',-1482,-2323)
@@ -150,6 +133,7 @@ function onCreate()
 	setProperty('finalChains.alpha',0.01)
 	addLuaSprite('finalChains',true)
 	
+-- for something :)
 	setScrollFactor('agentAp',1,0)
 	setScrollFactor('guntAp',1,0)
 	setScrollFactor('soldatAp',1,0)
@@ -159,6 +143,23 @@ function onCreate()
 	setScrollFactor('mira',1,0)
 	setScrollFactor('finalChains',1,0)
 	setScrollFactor('deimosAction',1,0)
+
+	runHaxeCode([[
+		game.initLuaShader('BgDeimos');
+		game.initLuaShader('TvGlitch');
+		game.initLuaShader('amongus');
+
+		bgDeim = game.createRuntimeShader('BgDeimos');
+		TvG = game.createRuntimeShader('TvGlitch');
+		ray = game.createRuntimeShader('amongus');
+		ray.setFloat('FlashIntensity',1);
+
+		deimosAction = new Character(-765,-5,'deimos-Action');
+		deimosAction.alpha = 0.01;
+		game.variables.set('deimosAction',deimosAction);
+		game.addBehindDad(deimosAction);
+	]])
+
 end
 introCompleted = false
 endingMoment = false
@@ -167,9 +168,11 @@ function onStepHit()
 	if curStep == 946 then bfMoment = true end
 	if curStep == 216 then ray() end
 end
-function onUpdate()
-	runHaxeCode("bgDeim.setFloat('iTime',"..os.clock()..")")
-	runHaxeCode("TvG.setFloat('iTime',"..os.clock()..")")
+it = 0
+function onUpdate(e)
+	it = it + e * 0.5
+	runHaxeCode("bgDeim.setFloat('iTime',"..it..")")
+	runHaxeCode("TvG.setFloat('iTime',"..it..")")
 
 	setProperty('bg6.y',-1545.22 + math.sin(getSongPosition() / 500) * 5)
 
@@ -224,13 +227,13 @@ function onUpdate()
 	if getProperty('gf.animation.curAnim.name') == 'final' and getProperty('gf.animation.curAnim.finished') then
 		playAnim('gf','laugh',true)
 	end
-	if getProperty('gf.animation.curAnim.name') == 'laugh' and getProperty('gf.animation.curAnim.curFrame') == 8 then
+	if getProperty('gf.animation.curAnim.name') == 'laugh' and getProperty('gf.animation.curAnim.curFrame') == 10 then
 		ending()
 		endingMoment = true
 		playAnim('barricada','appear',true)
 		playAnim('boyfriend','reaction',true)
 	end	
-	if getProperty('gf.animation.curAnim.name') == 'laugh' and getProperty('gf.animation.curAnim.curFrame') == 7 then
+	if getProperty('gf.animation.curAnim.name') == 'laugh' and getProperty('gf.animation.curAnim.curFrame') == 9 then
 		deimosAct('final')
 		runTimer('deimosAct',15)--lmao
 	end	
