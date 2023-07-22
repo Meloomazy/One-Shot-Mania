@@ -1,0 +1,20 @@
+<TextureAtlas imagePath="bar-down.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture x="0" frameWidth="0" y="0" frameX="-17" name="health00000" frameHeight="0" frameY="-14" width="598" height="328"/>
+	<SubTexture x="608" frameWidth="0" y="0" frameX="-17" name="health0001" frameHeight="0" frameY="-14" width="598" height="328"/>
+	<SubTexture x="1216" frameWidth="615" y="0" frameX="-17" name="health0002" frameHeight="342" frameY="-2" width="598" height="340"/>
+	<SubTexture x="0" frameWidth="615" y="350" frameX="-17" name="health0003" frameHeight="342" frameY="-2" width="598" height="340"/>
+	<SubTexture x="608" frameWidth="615" y="350" frameX="-17" name="health0004" frameHeight="342" frameY="-1" width="598" height="341"/>
+	<SubTexture x="1216" frameWidth="615" y="350" frameX="-17" name="health0005" frameHeight="342" frameY="0" width="598" height="342"/>
+	<SubTexture x="0" frameWidth="0" y="702" frameX="0" name="health0006" frameHeight="0" frameY="0" width="615" height="342"/>
+	<SubTexture x="0" frameWidth="0" y="0" frameX="-17" name="die0000" frameHeight="0" frameY="-14" width="598" height="328"/>
+	<SubTexture x="608" frameWidth="0" y="0" frameX="-17" name="die0001" frameHeight="0" frameY="-14" width="598" height="328"/>
+	<SubTexture x="0" frameWidth="598" y="0" frameX="-17" name="load0000" frameHeight="328" frameY="-14" width="598" height="328"/>
+	<SubTexture x="608" frameWidth="598" y="0" frameX="-17" name="load0001" frameHeight="328" frameY="-14" width="598" height="328"/>
+	<SubTexture x="1216" frameWidth="615" y="0" frameX="-17" name="load0002" frameHeight="342" frameY="-2" width="598" height="340"/>
+	<SubTexture x="0" frameWidth="615" y="350" frameX="-17" name="load0003" frameHeight="342" frameY="-2" width="598" height="340"/>
+	<SubTexture x="608" frameWidth="615" y="350" frameX="-17" name="load0004" frameHeight="342" frameY="-1" width="598" height="341"/>
+	<SubTexture x="1216" frameWidth="615" y="350" frameX="-17" name="load0005" frameHeight="342" frameY="0" width="598" height="342"/>
+	<SubTexture x="0" frameWidth="0" y="702" frameX="0" name="load0006" frameHeight="0" frameY="0" width="615" height="342"/>
+</TextureAtlas>

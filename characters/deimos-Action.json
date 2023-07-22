@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				-14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "parry",
+			"loop": false,
+			"name": "deimos parry0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "doit",
+			"loop": false,
+			"name": "do it0"
+		},
+		{
+			"offsets": [
+				0,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "final",
+			"loop": false,
+			"name": "final0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "leftm",
+			"loop": false,
+			"name": "left miss0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "rightm",
+			"loop": false,
+			"name": "right miss0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shot1",
+			"loop": false,
+			"name": "shot 1"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shot2",
+			"loop": false,
+			"name": "shot 2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deimos-assets-pack",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		220,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

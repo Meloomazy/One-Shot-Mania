@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cadenas.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cadena de frente0000" x="0" y="0" width="525" height="228" frameX="-87" frameY="-396" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0001" x="535" y="0" width="299" height="450" frameX="-27" frameY="-174" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0002" x="0" y="460" width="251" height="527" frameX="-31" frameY="-97" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0003" x="0" y="460" width="251" height="527" frameX="-31" frameY="-97" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0004" x="261" y="460" width="279" height="608" frameX="-13" frameY="-16" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0005" x="261" y="460" width="279" height="608" frameX="-13" frameY="-16" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0006" x="550" y="460" width="286" height="620" frameX="-5" frameY="-4" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0007" x="550" y="460" width="286" height="620" frameX="-5" frameY="-4" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0008" x="550" y="460" width="286" height="620" frameX="-5" frameY="-4" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0009" x="0" y="1090" width="289" height="623" frameX="-2" frameY="-1" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0010" x="0" y="1090" width="289" height="623" frameX="-2" frameY="-1" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0011" x="0" y="1090" width="289" height="623" frameX="-2" frameY="-1" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0012" x="0" y="1090" width="289" height="623" frameX="-2" frameY="-1" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0013" x="0" y="1090" width="289" height="623" frameX="-2" frameY="-1" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0014" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0015" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0016" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0017" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0018" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0019" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0020" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0021" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0022" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0023" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0024" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0025" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0026" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0027" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0028" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0029" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0030" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0031" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+	<SubTexture name="cadena de frente0032" x="299" y="1090" width="293" height="624" frameX="0" frameY="0" frameWidth="612" frameHeight="624"/>
+</TextureAtlas>

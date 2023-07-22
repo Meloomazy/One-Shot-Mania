@@ -1,0 +1,175 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-109,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				15,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-44,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-56,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "dodge"
+		},
+		{
+			"offsets": [
+				-36,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "hey"
+		},
+		{
+			"offsets": [
+				-46,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "reaction",
+			"indices": [],
+			"name": "pico reaction"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-105,
+				1
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "right miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				-14
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "left miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-32,
+				11
+			],
+			"indices": [],
+			"fps": 25,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "down miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nega-pico",
+	"position": [
+		300,
+		230
+	],
+	"healthicon": "pico",
+	"flip_x": true,
+	"healthbar_colors": [
+		220,
+		255,
+		89
+	],
+	"camera_position": [
+		10,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

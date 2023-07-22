@@ -1,0 +1,160 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gf idle",
+			"indices": [
+				16,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "gf idle",
+			"indices": [
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceLeft-alt",
+			"fps": 24,
+			"name": "gf idle angry",
+			"indices": [
+				16,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "gf idle angry",
+			"indices": [
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-23
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "gf shoots",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-4
+			],
+			"anim": "reaction",
+			"fps": 24,
+			"name": "gf reaction",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				74
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "gf laugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				137,
+				92
+			],
+			"anim": "final",
+			"fps": 24,
+			"name": "gf final",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				73,
+				98
+			],
+			"anim": "angry",
+			"fps": 24,
+			"name": "gf angry",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nega-gf",
+	"position": [
+		300,
+		310
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-140,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

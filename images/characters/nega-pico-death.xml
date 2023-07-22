@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nega-pico-death.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PICO DED0000" x="0" y="0" width="627" height="663" frameX="-211" frameY="-5" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0001" x="637" y="0" width="796" height="630" frameX="-211" frameY="-58" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0002" x="1443" y="0" width="803" height="640" frameX="-204" frameY="-48" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0003" x="2256" y="0" width="822" height="658" frameX="-204" frameY="-19" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0004" x="3088" y="0" width="822" height="639" frameX="-204" frameY="-38" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0005" x="3920" y="0" width="833" height="634" frameX="-204" frameY="-37" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0006" x="4763" y="0" width="837" height="631" frameX="-204" frameY="-44" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0007" x="5610" y="0" width="876" height="678" frameX="-177" frameY="-24" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0008" x="6496" y="0" width="891" height="635" frameX="-162" frameY="-35" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0009" x="0" y="688" width="895" height="648" frameX="-162" frameY="-22" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0010" x="905" y="688" width="1005" height="628" frameX="-55" frameY="-42" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0011" x="1920" y="688" width="1060" height="642" frameX="0" frameY="-28" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0012" x="2990" y="688" width="1061" height="629" frameX="0" frameY="-41" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0013" x="4061" y="688" width="1061" height="656" frameX="0" frameY="-14" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0014" x="5132" y="688" width="1061" height="623" frameX="0" frameY="-47" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0015" x="6203" y="688" width="1061" height="615" frameX="0" frameY="-55" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0016" x="0" y="1354" width="1054" height="611" frameX="-7" frameY="-59" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0017" x="1064" y="1354" width="1055" height="587" frameX="-6" frameY="-83" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0018" x="2129" y="1354" width="1061" height="584" frameX="0" frameY="-86" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0019" x="3200" y="1354" width="1061" height="670" frameX="0" frameY="0" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0020" x="4271" y="1354" width="1061" height="439" frameX="0" frameY="-231" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0021" x="4271" y="1354" width="1061" height="439" frameX="0" frameY="-231" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0022" x="5342" y="1354" width="1061" height="439" frameX="0" frameY="-231" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0023" x="5342" y="1354" width="1061" height="439" frameX="0" frameY="-231" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED0024" x="5342" y="1354" width="1061" height="439" frameX="0" frameY="-231" frameWidth="1061" frameHeight="702"/>
+	<SubTexture name="PICO DED loop0000" x="6413" y="1354" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0001" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0002" x="1072" y="2034" width="1062" height="530"/>
+	<SubTexture name="PICO DED loop0003" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0004" x="2144" y="2034" width="1062" height="477" frameX="0" frameY="-53" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0005" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0006" x="3216" y="2034" width="1062" height="487" frameX="0" frameY="-43" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0007" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0008" x="4288" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0009" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0010" x="5360" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0011" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0012" x="6432" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0013" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0014" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0015" x="1072" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0016" x="1072" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0017" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0018" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0019" x="2144" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0020" x="2144" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0021" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0022" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0023" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0024" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0025" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0026" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0027" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0028" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0029" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0030" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0031" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0032" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0033" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0034" x="3216" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0035" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0036" x="4288" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0037" x="1072" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0038" x="5360" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0039" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0040" x="6432" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0041" x="2144" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0042" x="0" y="3028" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0043" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0044" x="1072" y="3028" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0045" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0046" x="2144" y="3028" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0047" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0048" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0049" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0050" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0051" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0052" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0053" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0054" x="0" y="2034" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0055" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0056" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0057" x="1072" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0058" x="1072" y="2574" width="1062" height="443" frameX="0" frameY="-87" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0059" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0060" x="0" y="2574" width="1062" height="439" frameX="0" frameY="-91" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0061" x="2144" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED loop0062" x="2144" y="2574" width="1062" height="444" frameX="0" frameY="-86" frameWidth="1062" frameHeight="530"/>
+	<SubTexture name="PICO DED press0000" x="3216" y="3028" width="1115" height="492" frameX="0" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0001" x="4341" y="3028" width="1115" height="492" frameX="0" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0002" x="5466" y="3028" width="1114" height="492" frameX="0" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0003" x="6590" y="3028" width="1114" height="492" frameX="0" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0004" x="0" y="3530" width="1100" height="492" frameX="-8" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0005" x="1110" y="3530" width="1100" height="492" frameX="-8" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0006" x="2220" y="3530" width="1076" height="492" frameX="-23" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0007" x="3306" y="3530" width="1042" height="492" frameX="-56" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0008" x="4358" y="3530" width="950" height="492" frameX="-118" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0009" x="5318" y="3530" width="673" height="492" frameX="-300" frameY="-408" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0010" x="6001" y="3530" width="516" height="506" frameX="-353" frameY="-395" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0011" x="6527" y="3530" width="516" height="506" frameX="-353" frameY="-395" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0012" x="7053" y="3530" width="479" height="523" frameX="-371" frameY="-379" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0013" x="7542" y="3530" width="483" height="517" frameX="-371" frameY="-385" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0014" x="0" y="4063" width="636" height="415" frameX="-309" frameY="-483" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0015" x="646" y="4063" width="636" height="415" frameX="-309" frameY="-483" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0016" x="1292" y="4063" width="644" height="408" frameX="-305" frameY="-489" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0017" x="1946" y="4063" width="283" height="921" frameX="-484" frameY="0" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0018" x="2239" y="4063" width="84" height="921" frameX="-582" frameY="0" frameWidth="1115" frameHeight="921"/>
+	<SubTexture name="PICO DED press0019" x="2333" y="4063" width="0" height="0" frameX="-20" frameY="-433" frameWidth="1115" frameHeight="921"/>
+</TextureAtlas>

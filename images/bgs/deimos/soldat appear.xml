@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="soldat appear.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="soldat appear0000" x="0" y="0" width="565" height="358" frameX="-22" frameY="-143" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0001" x="575" y="0" width="545" height="396" frameX="-39" frameY="-64" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0002" x="575" y="0" width="545" height="396" frameX="-39" frameY="-64" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0003" x="1130" y="0" width="529" height="418" frameX="-53" frameY="-35" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0004" x="1130" y="0" width="529" height="418" frameX="-53" frameY="-35" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0005" x="0" y="428" width="458" height="465" frameX="-111" frameY="0" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0006" x="468" y="428" width="408" height="465" frameX="-161" frameY="0" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0007" x="886" y="428" width="405" height="441" frameX="-164" frameY="-24" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0008" x="886" y="428" width="405" height="441" frameX="-164" frameY="-24" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0009" x="1301" y="428" width="405" height="446" frameX="-163" frameY="-20" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0010" x="1301" y="428" width="405" height="446" frameX="-163" frameY="-20" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0011" x="0" y="903" width="405" height="448" frameX="-163" frameY="-18" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0012" x="0" y="903" width="405" height="448" frameX="-163" frameY="-18" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0013" x="415" y="903" width="405" height="447" frameX="-163" frameY="-19" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0014" x="415" y="903" width="405" height="447" frameX="-163" frameY="-19" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0015" x="830" y="903" width="392" height="417" frameX="-175" frameY="-47" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0016" x="830" y="903" width="392" height="417" frameX="-175" frameY="-47" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0017" x="1232" y="903" width="394" height="423" frameX="-174" frameY="-42" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0018" x="1636" y="903" width="404" height="445" frameX="-164" frameY="-20" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0019" x="0" y="1361" width="428" height="445" frameX="-140" frameY="-20" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0020" x="438" y="1361" width="472" height="459" frameX="-96" frameY="-6" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0021" x="438" y="1361" width="472" height="459" frameX="-96" frameY="-6" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0022" x="920" y="1361" width="514" height="448" frameX="-54" frameY="-17" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0023" x="920" y="1361" width="514" height="448" frameX="-54" frameY="-17" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0024" x="1444" y="1361" width="541" height="427" frameX="-27" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0025" x="1444" y="1361" width="541" height="427" frameX="-27" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0026" x="0" y="1830" width="563" height="427" frameX="-5" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0027" x="573" y="1830" width="568" height="427" frameX="0" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0028" x="1151" y="1830" width="564" height="427" frameX="-4" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0029" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0030" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0031" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0032" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0033" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0034" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0035" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0036" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0037" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0038" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0039" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0040" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0041" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0042" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0043" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0044" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0045" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0046" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0047" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0048" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0049" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0050" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0051" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0052" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+	<SubTexture name="soldat appear0053" x="0" y="2267" width="406" height="427" frameX="-162" frameY="-38" frameWidth="587" frameHeight="501"/>
+</TextureAtlas>

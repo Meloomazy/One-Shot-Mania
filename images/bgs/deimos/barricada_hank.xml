@@ -1,0 +1,128 @@
+<TextureAtlas imagePath="barricada_hank.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture x="0" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0000" frameHeight="938" frameY="-460" width="976" height="478"/>
+	<SubTexture x="0" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0001" frameHeight="938" frameY="-460" width="976" height="478"/>
+	<SubTexture x="986" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0002" frameHeight="938" frameY="-460" width="954" height="447"/>
+	<SubTexture x="986" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0003" frameHeight="938" frameY="-460" width="954" height="447"/>
+	<SubTexture x="1950" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0004" frameHeight="938" frameY="-460" width="900" height="459"/>
+	<SubTexture x="1950" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0005" frameHeight="938" frameY="-460" width="900" height="459"/>
+	<SubTexture x="2860" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0006" frameHeight="938" frameY="-460" width="841" height="371"/>
+	<SubTexture x="2860" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0007" frameHeight="938" frameY="-460" width="841" height="371"/>
+	<SubTexture x="3711" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0008" frameHeight="938" frameY="-460" width="770" height="364"/>
+	<SubTexture x="4491" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0009" frameHeight="938" frameY="-460" width="770" height="364"/>
+	<SubTexture x="5271" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0010" frameHeight="938" frameY="-460" width="724" height="338"/>
+	<SubTexture x="5271" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0011" frameHeight="938" frameY="-460" width="724" height="338"/>
+	<SubTexture x="6005" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0012" frameHeight="938" frameY="-460" width="724" height="338"/>
+	<SubTexture x="6005" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0013" frameHeight="938" frameY="-460" width="724" height="338"/>
+	<SubTexture x="6005" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0014" frameHeight="938" frameY="-460" width="724" height="338"/>
+	<SubTexture x="6739" frameWidth="1282" y="0" frameX="-200" name="hank cameo intro0015" frameHeight="938" frameY="-457" width="724" height="341"/>
+	<SubTexture x="0" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0016" frameHeight="938" frameY="-303" width="724" height="495"/>
+	<SubTexture x="734" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0017" frameHeight="938" frameY="-152" width="724" height="646"/>
+	<SubTexture x="734" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0018" frameHeight="938" frameY="-152" width="724" height="646"/>
+	<SubTexture x="1468" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0019" frameHeight="938" frameY="-177" width="724" height="621"/>
+	<SubTexture x="1468" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0020" frameHeight="938" frameY="-177" width="724" height="621"/>
+	<SubTexture x="2202" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0021" frameHeight="938" frameY="-172" width="724" height="626"/>
+	<SubTexture x="2202" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0022" frameHeight="938" frameY="-172" width="724" height="626"/>
+	<SubTexture x="2936" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0023" frameHeight="938" frameY="-200" width="724" height="598"/>
+	<SubTexture x="3670" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0024" frameHeight="938" frameY="-195" width="724" height="603"/>
+	<SubTexture x="3670" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0025" frameHeight="938" frameY="-195" width="724" height="603"/>
+	<SubTexture x="4404" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0026" frameHeight="938" frameY="-173" width="724" height="625"/>
+	<SubTexture x="5138" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0027" frameHeight="938" frameY="-173" width="724" height="625"/>
+	<SubTexture x="5872" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0028" frameHeight="938" frameY="-159" width="724" height="639"/>
+	<SubTexture x="6606" frameWidth="1282" y="488" frameX="-200" name="hank cameo intro0029" frameHeight="938" frameY="-159" width="804" height="639"/>
+	<SubTexture x="0" frameWidth="1282" y="1144" frameX="-200" name="hank cameo intro0030" frameHeight="938" frameY="-170" width="948" height="628"/>
+	<SubTexture x="958" frameWidth="1282" y="1144" frameX="-200" name="hank cameo intro0031" frameHeight="938" frameY="-170" width="1010" height="628"/>
+	<SubTexture x="1978" frameWidth="1282" y="1144" frameX="-198" name="hank cameo intro0032" frameHeight="938" frameY="-189" width="1012" height="609"/>
+	<SubTexture x="3000" frameWidth="1282" y="1144" frameX="-198" name="hank cameo intro0033" frameHeight="938" frameY="-191" width="1022" height="607"/>
+	<SubTexture x="4032" frameWidth="1282" y="1144" frameX="-179" name="hank cameo intro0034" frameHeight="938" frameY="-191" width="1041" height="607"/>
+	<SubTexture x="5083" frameWidth="1282" y="1144" frameX="-176" name="hank cameo intro0035" frameHeight="938" frameY="-191" width="1041" height="607"/>
+	<SubTexture x="6134" frameWidth="1282" y="1144" frameX="-174" name="hank cameo intro0036" frameHeight="938" frameY="-191" width="1043" height="607"/>
+	<SubTexture x="0" frameWidth="1282" y="1782" frameX="-174" name="hank cameo intro0037" frameHeight="938" frameY="-191" width="1043" height="607"/>
+	<SubTexture x="1053" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0038" frameHeight="938" frameY="-191" width="1017" height="607"/>
+	<SubTexture x="2080" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0039" frameHeight="938" frameY="-191" width="1016" height="607"/>
+	<SubTexture x="3106" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0040" frameHeight="938" frameY="-191" width="1016" height="607"/>
+	<SubTexture x="4132" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0041" frameHeight="938" frameY="-191" width="1077" height="607"/>
+	<SubTexture x="5219" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0042" frameHeight="938" frameY="-191" width="1082" height="607"/>
+	<SubTexture x="6311" frameWidth="1282" y="1782" frameX="-200" name="hank cameo intro0043" frameHeight="938" frameY="-191" width="1082" height="607"/>
+	<SubTexture x="0" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0044" frameHeight="938" frameY="-186" width="1034" height="612"/>
+	<SubTexture x="1044" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0045" frameHeight="938" frameY="-151" width="931" height="647"/>
+	<SubTexture x="1985" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0046" frameHeight="938" frameY="-52" width="889" height="746"/>
+	<SubTexture x="2884" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0047" frameHeight="938" frameY="-52" width="875" height="746"/>
+	<SubTexture x="3769" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0048" frameHeight="938" frameY="-30" width="875" height="768"/>
+	<SubTexture x="4654" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0049" frameHeight="938" frameY="-30" width="910" height="768"/>
+	<SubTexture x="5574" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0050" frameHeight="938" frameY="0" width="870" height="798"/>
+	<SubTexture x="6454" frameWidth="1282" y="2399" frameX="-200" name="hank cameo intro0051" frameHeight="938" frameY="0" width="869" height="798"/>
+	<SubTexture x="0" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0052" frameHeight="938" frameY="-6" width="869" height="792"/>
+	<SubTexture x="879" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0053" frameHeight="938" frameY="-6" width="869" height="792"/>
+	<SubTexture x="1758" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0054" frameHeight="938" frameY="-4" width="869" height="794"/>
+	<SubTexture x="2637" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0055" frameHeight="938" frameY="-4" width="869" height="794"/>
+	<SubTexture x="3516" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0056" frameHeight="938" frameY="-43" width="869" height="755"/>
+	<SubTexture x="4395" frameWidth="1282" y="3207" frameX="-110" name="hank cameo intro0057" frameHeight="938" frameY="-43" width="959" height="755"/>
+	<SubTexture x="5364" frameWidth="1282" y="3207" frameX="0" name="hank cameo intro0058" frameHeight="938" frameY="-61" width="1069" height="737"/>
+	<SubTexture x="6443" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0059" frameHeight="938" frameY="-61" width="857" height="737"/>
+	<SubTexture x="7310" frameWidth="1282" y="3207" frameX="-200" name="hank cameo intro0060" frameHeight="938" frameY="-113" width="857" height="685"/>
+	<SubTexture x="0" frameWidth="1282" y="4011" frameX="-200" name="hank cameo intro0061" frameHeight="938" frameY="-113" width="851" height="685"/>
+	<SubTexture x="861" frameWidth="1282" y="4011" frameX="-200" name="hank cameo intro0062" frameHeight="938" frameY="-165" width="851" height="633"/>
+	<SubTexture x="1722" frameWidth="1282" y="4011" frameX="-200" name="hank cameo intro0063" frameHeight="938" frameY="-155" width="816" height="643"/>
+	<SubTexture x="2548" frameWidth="1282" y="4011" frameX="-200" name="hank cameo intro0064" frameHeight="938" frameY="-155" width="816" height="643"/>
+	<SubTexture x="3374" frameWidth="1282" y="4011" frameX="-200" name="hank cameo intro0065" frameHeight="938" frameY="-150" width="797" height="648"/>
+	<SubTexture x="4181" frameWidth="1282" y="4011" frameX="-173" name="hank cameo intro0066" frameHeight="938" frameY="-153" width="751" height="645"/>
+	<SubTexture x="4942" frameWidth="1282" y="4011" frameX="-127" name="hank cameo intro0067" frameHeight="938" frameY="-172" width="797" height="626"/>
+	<SubTexture x="4942" frameWidth="1282" y="4011" frameX="-127" name="hank cameo intro0068" frameHeight="938" frameY="-172" width="797" height="626"/>
+	<SubTexture x="5749" frameWidth="1282" y="4011" frameX="-169" name="hank cameo intro0069" frameHeight="938" frameY="-170" width="755" height="628"/>
+	<SubTexture x="6514" frameWidth="1282" y="4011" frameX="-177" name="hank cameo intro0070" frameHeight="938" frameY="-170" width="747" height="628"/>
+	<SubTexture x="7271" frameWidth="1282" y="4011" frameX="-179" name="hank cameo intro0071" frameHeight="938" frameY="-164" width="745" height="634"/>
+	<SubTexture x="0" frameWidth="1282" y="4706" frameX="-165" name="hank cameo intro0072" frameHeight="938" frameY="-164" width="759" height="634"/>
+	<SubTexture x="769" frameWidth="1282" y="4706" frameX="-156" name="hank cameo intro0073" frameHeight="938" frameY="-165" width="768" height="633"/>
+	<SubTexture x="769" frameWidth="1282" y="4706" frameX="-156" name="hank cameo intro0074" frameHeight="938" frameY="-165" width="768" height="633"/>
+	<SubTexture x="1547" frameWidth="833" y="4706" frameX="-155" name="hank chao0000" frameHeight="636" frameY="-163" width="768" height="635"/>
+	<SubTexture x="2325" frameWidth="833" y="4706" frameX="-155" name="hank chao0001" frameHeight="636" frameY="-163" width="768" height="635"/>
+	<SubTexture x="3103" frameWidth="833" y="4706" frameX="-97" name="hank chao0002" frameHeight="636" frameY="-163" width="826" height="635"/>
+	<SubTexture x="3939" frameWidth="833" y="4706" frameX="-97" name="hank chao0003" frameHeight="636" frameY="-163" width="826" height="635"/>
+	<SubTexture x="4775" frameWidth="833" y="4706" frameX="-131" name="hank chao0004" frameHeight="636" frameY="-163" width="792" height="635"/>
+	<SubTexture x="5577" frameWidth="833" y="4706" frameX="-131" name="hank chao0005" frameHeight="636" frameY="-163" width="792" height="635"/>
+	<SubTexture x="6379" frameWidth="833" y="4706" frameX="-168" name="hank chao0006" frameHeight="636" frameY="-163" width="755" height="635"/>
+	<SubTexture x="7144" frameWidth="833" y="4706" frameX="-168" name="hank chao0007" frameHeight="636" frameY="-163" width="755" height="635"/>
+	<SubTexture x="0" frameWidth="833" y="5351" frameX="-176" name="hank chao0008" frameHeight="636" frameY="-163" width="747" height="635"/>
+	<SubTexture x="757" frameWidth="833" y="5351" frameX="-176" name="hank chao0009" frameHeight="636" frameY="-163" width="747" height="635"/>
+	<SubTexture x="1514" frameWidth="833" y="5351" frameX="-162" name="hank chao0010" frameHeight="636" frameY="-163" width="761" height="635"/>
+	<SubTexture x="2285" frameWidth="833" y="5351" frameX="-162" name="hank chao0011" frameHeight="636" frameY="-162" width="761" height="636"/>
+	<SubTexture x="3056" frameWidth="833" y="5351" frameX="-155" name="hank chao0012" frameHeight="636" frameY="-162" width="768" height="636"/>
+	<SubTexture x="3834" frameWidth="833" y="5351" frameX="-155" name="hank chao0013" frameHeight="636" frameY="-163" width="768" height="635"/>
+	<SubTexture x="4612" frameWidth="833" y="5351" frameX="-97" name="hank chao0014" frameHeight="636" frameY="-163" width="826" height="635"/>
+	<SubTexture x="5448" frameWidth="833" y="5351" frameX="-97" name="hank chao0015" frameHeight="636" frameY="-163" width="826" height="635"/>
+	<SubTexture x="6284" frameWidth="833" y="5351" frameX="-131" name="hank chao0016" frameHeight="636" frameY="-163" width="792" height="635"/>
+	<SubTexture x="7086" frameWidth="833" y="5351" frameX="-131" name="hank chao0017" frameHeight="636" frameY="-163" width="792" height="635"/>
+	<SubTexture x="0" frameWidth="833" y="5997" frameX="-168" name="hank chao0018" frameHeight="636" frameY="-163" width="755" height="635"/>
+	<SubTexture x="765" frameWidth="833" y="5997" frameX="-99" name="hank chao0019" frameHeight="636" frameY="-163" width="824" height="635"/>
+	<SubTexture x="765" frameWidth="833" y="5997" frameX="-99" name="hank chao0020" frameHeight="636" frameY="-163" width="824" height="635"/>
+	<SubTexture x="1599" frameWidth="833" y="5997" frameX="-140" name="hank chao0021" frameHeight="636" frameY="-166" width="783" height="632"/>
+	<SubTexture x="1599" frameWidth="833" y="5997" frameX="-140" name="hank chao0022" frameHeight="636" frameY="-166" width="783" height="632"/>
+	<SubTexture x="2392" frameWidth="833" y="5997" frameX="-177" name="hank chao0023" frameHeight="636" frameY="-173" width="746" height="625"/>
+	<SubTexture x="2392" frameWidth="833" y="5997" frameX="-177" name="hank chao0024" frameHeight="636" frameY="-173" width="746" height="625"/>
+	<SubTexture x="3148" frameWidth="833" y="5997" frameX="-199" name="hank chao0025" frameHeight="636" frameY="-182" width="724" height="616"/>
+	<SubTexture x="3148" frameWidth="833" y="5997" frameX="-199" name="hank chao0026" frameHeight="636" frameY="-182" width="724" height="616"/>
+	<SubTexture x="3882" frameWidth="833" y="5997" frameX="-199" name="hank chao0027" frameHeight="636" frameY="-195" width="724" height="603"/>
+	<SubTexture x="3882" frameWidth="833" y="5997" frameX="-199" name="hank chao0028" frameHeight="636" frameY="-195" width="724" height="603"/>
+	<SubTexture x="4616" frameWidth="833" y="5997" frameX="-199" name="hank chao0029" frameHeight="636" frameY="-179" width="731" height="619"/>
+	<SubTexture x="4616" frameWidth="833" y="5997" frameX="-199" name="hank chao0030" frameHeight="636" frameY="-179" width="731" height="619"/>
+	<SubTexture x="5357" frameWidth="833" y="5997" frameX="-199" name="hank chao0031" frameHeight="636" frameY="-233" width="724" height="565"/>
+	<SubTexture x="5357" frameWidth="833" y="5997" frameX="-199" name="hank chao0032" frameHeight="636" frameY="-233" width="724" height="565"/>
+	<SubTexture x="6091" frameWidth="833" y="5997" frameX="-199" name="hank chao0033" frameHeight="636" frameY="-296" width="724" height="502"/>
+	<SubTexture x="6091" frameWidth="833" y="5997" frameX="-199" name="hank chao0034" frameHeight="636" frameY="-296" width="724" height="502"/>
+	<SubTexture x="6825" frameWidth="833" y="5997" frameX="-199" name="hank chao0035" frameHeight="636" frameY="-374" width="724" height="424"/>
+	<SubTexture x="6825" frameWidth="833" y="5997" frameX="-199" name="hank chao0036" frameHeight="636" frameY="-374" width="724" height="424"/>
+	<SubTexture x="0" frameWidth="826" y="6642" frameX="-155" name="hank idle0000" frameHeight="637" frameY="-166" width="769" height="632"/>
+	<SubTexture x="0" frameWidth="826" y="6642" frameX="-155" name="hank idle0001" frameHeight="637" frameY="-166" width="769" height="632"/>
+	<SubTexture x="779" frameWidth="826" y="6642" frameX="-98" name="hank idle0002" frameHeight="637" frameY="-167" width="826" height="631"/>
+	<SubTexture x="779" frameWidth="826" y="6642" frameX="-98" name="hank idle0003" frameHeight="637" frameY="-167" width="826" height="631"/>
+	<SubTexture x="1615" frameWidth="826" y="6642" frameX="-132" name="hank idle0004" frameHeight="637" frameY="-165" width="792" height="633"/>
+	<SubTexture x="1615" frameWidth="826" y="6642" frameX="-132" name="hank idle0005" frameHeight="637" frameY="-165" width="792" height="633"/>
+	<SubTexture x="2417" frameWidth="826" y="6642" frameX="-169" name="hank idle0006" frameHeight="637" frameY="-163" width="755" height="635"/>
+	<SubTexture x="2417" frameWidth="826" y="6642" frameX="-169" name="hank idle0007" frameHeight="637" frameY="-163" width="755" height="635"/>
+	<SubTexture x="3182" frameWidth="826" y="6642" frameX="-176" name="hank idle0008" frameHeight="637" frameY="-161" width="748" height="637"/>
+	<SubTexture x="3182" frameWidth="826" y="6642" frameX="-176" name="hank idle0009" frameHeight="637" frameY="-161" width="748" height="637"/>
+	<SubTexture x="3940" frameWidth="826" y="6642" frameX="-162" name="hank idle0010" frameHeight="637" frameY="-164" width="762" height="634"/>
+	<SubTexture x="3940" frameWidth="826" y="6642" frameX="-162" name="hank idle0011" frameHeight="637" frameY="-164" width="762" height="634"/>
+</TextureAtlas>

@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-151,
+				-27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "deimos idle 0"
+		},
+		{
+			"offsets": [
+				-305,
+				-69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left 0"
+		},
+		{
+			"offsets": [
+				-269,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"offsets": [
+				-195,
+				-41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up 0"
+		},
+		{
+			"offsets": [
+				-148,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right 0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				-25
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "deimos idle  angry0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-185,
+				-67
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "left angry0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-124,
+				-13
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down angry0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-212,
+				-60
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up angry0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				-47
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "right angry0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deimos",
+	"position": [
+		200,
+		320
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		220,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

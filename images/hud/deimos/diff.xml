@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="diff.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture x="0" frameWidth="331" y="0" frameX="-25" name="madness loop0000" frameHeight="100" frameY="-16" width="321" height="97"/>
+	<SubTexture x="0" frameWidth="331" y="107" frameX="-29" name="madness loop0001" frameHeight="100" frameY="-20" width="319" height="87"/>
+	<SubTexture x="0" frameWidth="331" y="204" frameX="-30" name="madness loop0002" frameHeight="100" frameY="-20" width="322" height="91"/>
+	<SubTexture x="0" frameWidth="331" y="305" frameX="-23" name="madness loop0003" frameHeight="100" frameY="-21" width="318" height="90"/>
+	<SubTexture x="0" frameWidth="331" y="405" frameX="-21" name="madness loop0004" frameHeight="100" frameY="-20" width="316" height="96"/>
+	<SubTexture x="0" frameWidth="0" y="511" frameX="0" name="standard0000" frameHeight="0" frameY="0" width="365" height="127"/>
+</TextureAtlas>

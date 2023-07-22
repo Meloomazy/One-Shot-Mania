@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="polvo.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="polvo0000" x="0" y="0" width="1210" height="143" frameX="-604" frameY="-280" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0001" x="1220" y="0" width="1577" height="225" frameX="-420" frameY="-198" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0002" x="1220" y="0" width="1577" height="225" frameX="-420" frameY="-198" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0003" x="0" y="235" width="1965" height="327" frameX="-226" frameY="-105" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0004" x="0" y="235" width="1965" height="327" frameX="-226" frameY="-105" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0005" x="0" y="572" width="2207" height="365" frameX="-105" frameY="-68" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0006" x="0" y="572" width="2207" height="365" frameX="-105" frameY="-68" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0007" x="0" y="947" width="2283" height="375" frameX="-67" frameY="-60" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0008" x="0" y="947" width="2283" height="375" frameX="-67" frameY="-60" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0009" x="0" y="1332" width="2340" height="396" frameX="-39" frameY="-39" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0010" x="0" y="1332" width="2340" height="396" frameX="-39" frameY="-39" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0011" x="0" y="1738" width="2417" height="434" frameX="0" frameY="0" frameWidth="2417" frameHeight="435"/>
+	<SubTexture name="polvo0012" x="0" y="1738" width="2417" height="434" frameX="0" frameY="0" frameWidth="2417" frameHeight="435"/>
+</TextureAtlas>

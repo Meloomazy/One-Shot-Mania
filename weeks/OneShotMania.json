@@ -1,0 +1,26 @@
+{
+	"storyName": "",
+	"hideFreeplay": false,
+	"weekBackground": "bruh",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Sacrifice",
+			"fleetway icons",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"difficulties": "Normal",
+	"hideStoryMode": true,
+	"weekName": ""
+}

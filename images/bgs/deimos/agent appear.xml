@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="agent appear.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="agent appear0000" x="0" y="0" width="375" height="320" frameX="-52" frameY="-227" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0001" x="385" y="0" width="397" height="383" frameX="-58" frameY="-153" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0002" x="792" y="0" width="411" height="393" frameX="-74" frameY="-146" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0003" x="792" y="0" width="411" height="393" frameX="-74" frameY="-146" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0004" x="1213" y="0" width="425" height="376" frameX="-71" frameY="-161" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0005" x="1213" y="0" width="425" height="376" frameX="-71" frameY="-161" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0006" x="0" y="403" width="427" height="380" frameX="-73" frameY="-169" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0007" x="0" y="403" width="427" height="380" frameX="-73" frameY="-169" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0008" x="437" y="403" width="410" height="384" frameX="-82" frameY="-164" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0009" x="437" y="403" width="410" height="384" frameX="-82" frameY="-164" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0010" x="857" y="403" width="415" height="445" frameX="-80" frameY="-102" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0011" x="1282" y="403" width="415" height="454" frameX="-80" frameY="-93" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0012" x="0" y="867" width="418" height="460" frameX="-77" frameY="-87" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0013" x="428" y="867" width="423" height="466" frameX="-72" frameY="-81" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0014" x="861" y="867" width="428" height="471" frameX="-67" frameY="-76" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0015" x="1299" y="867" width="432" height="476" frameX="-63" frameY="-71" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0016" x="0" y="1353" width="436" height="481" frameX="-59" frameY="-66" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0017" x="446" y="1353" width="440" height="486" frameX="-55" frameY="-61" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0018" x="896" y="1353" width="445" height="491" frameX="-50" frameY="-56" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0019" x="1351" y="1353" width="450" height="496" frameX="-45" frameY="-51" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0020" x="0" y="1859" width="455" height="503" frameX="-40" frameY="-44" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0021" x="465" y="1859" width="462" height="510" frameX="-33" frameY="-37" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0022" x="937" y="1859" width="471" height="520" frameX="-24" frameY="-27" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0023" x="1418" y="1859" width="472" height="521" frameX="-23" frameY="-26" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0024" x="0" y="2390" width="477" height="526" frameX="-18" frameY="-21" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0025" x="487" y="2390" width="486" height="537" frameX="-9" frameY="-10" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0026" x="983" y="2390" width="495" height="547" frameX="0" frameY="0" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0027" x="1488" y="2390" width="415" height="402" frameX="-80" frameY="-145" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0028" x="0" y="2947" width="415" height="423" frameX="-80" frameY="-124" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0029" x="425" y="2947" width="415" height="435" frameX="-80" frameY="-112" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0030" x="857" y="403" width="415" height="445" frameX="-80" frameY="-102" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0031" x="1282" y="403" width="415" height="454" frameX="-80" frameY="-93" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0032" x="0" y="867" width="418" height="460" frameX="-77" frameY="-87" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0033" x="428" y="867" width="423" height="466" frameX="-72" frameY="-81" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0034" x="861" y="867" width="428" height="471" frameX="-67" frameY="-76" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0035" x="1299" y="867" width="432" height="476" frameX="-63" frameY="-71" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0036" x="0" y="1353" width="436" height="481" frameX="-59" frameY="-66" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0037" x="446" y="1353" width="440" height="486" frameX="-55" frameY="-61" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0038" x="896" y="1353" width="445" height="491" frameX="-50" frameY="-56" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0039" x="1351" y="1353" width="450" height="496" frameX="-45" frameY="-51" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0040" x="0" y="1859" width="455" height="503" frameX="-40" frameY="-44" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0041" x="465" y="1859" width="462" height="510" frameX="-33" frameY="-37" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0042" x="937" y="1859" width="471" height="520" frameX="-24" frameY="-27" frameWidth="500" frameHeight="549"/>
+	<SubTexture name="agent appear0043" x="1418" y="1859" width="472" height="521" frameX="-23" frameY="-26" frameWidth="500" frameHeight="549"/>
+</TextureAtlas>
