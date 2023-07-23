@@ -3,32 +3,28 @@ function onCreate()
 	luaDebugMode = true
 	addHaxeLibrary('FlxFlicker','flixel.effects')
 	addHaxeLibrary("FileSystem", "sys")
-    addHaxeLibrary("File", "sys.io")
-	addHaxeLibrary("String")
-	addHaxeLibrary("Sys")
-
-	precacheStuff()
+	local sounds = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("sounds")]])..[[")]])
+	local images = {
+		chara = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/characters")]]),
+		hud = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/hud/deimos")]]),
+		bgs = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/bgs/deimos")]])
+	}
+	local imagesNameData = {} imagesNameData.chara = images.chara imagesNameData.hud = images.hud imagesNameData.bgs = images.bgs
+	for _, fn in pairs(sounds) do
+		if stringEndsWith(fn, '.ogg') then
+			local s = string.sub(fn, 0, #fn - 4)
+			precacheSound(s)
+		end
+	end
+	for ty, val in pairs(imagesNameData) do
+		for i = 1, #val do
+			if stringEndsWith(val[i], '.png') then
+				local t = string.sub(val[i], 0, #val[i] - 4)
+				precacheImage(t) -- precacheImage literally does nothing :fire:
+			end
+		end
+	end	
 	shaderCoordFix()
-
---- graphic stuff
-	makeLuaSprite('whiteOverlay',nil)
-	makeGraphic('whiteOverlay',1280,720,'ffffff')
-	setObjectCamera('whiteOverlay','camHUD')
-	setProperty('whiteOverlay.alpha',0.01)
-	addLuaSprite('whiteOverlay')
-
-	makeLuaSprite('redOverlay',nil)
-	makeGraphic('redOverlay',1280,720,'ff0000')
-	setObjectCamera('redOverlay','camHUD')
-	setProperty('redOverlay.alpha',0.01)
-	addLuaSprite('redOverlay')
-
-	makeLuaSprite('flicker',nil)
-	makeGraphic('flicker',1280,720,'000000')
-	setObjectCamera('flicker','camHUD')
-	setProperty('flicker.alpha',0.01)
-	addLuaSprite('flicker')
----
 
 -- the the uhh stage i guess
 	makeLuaSprite('sky','bgs/deimos/sky',-1482,-2323)
@@ -48,9 +44,9 @@ function onCreate()
 	makeAnimatedLuaSprite('grunt1','bgs/deimos/grunt',685,-1305)
 	setScrollFactor('grunt1',1,0.91)
 	addAnimationByPrefix('grunt1','intro','grunt normal',24,false)
+	addAnimationByIndices('grunt1','e','grunt normal','0,0',24)
 	addAnimationByPrefix('grunt1','fall','grunt morido',24,true)
-	playAnim('grunt1','fall',true)
-	setProperty('grunt1.alpha',0.01)
+	playAnim('grunt1','e',true)
 	addLuaSprite('grunt1')
 
 	makeLuaSprite('bg6','bgs/deimos/bg 6',-687,-1545.22)
@@ -61,6 +57,7 @@ function onCreate()
 	setScrollFactor('bg5',1,0.98)
 	addLuaSprite('bg5')
 
+-- ending stuff
 	makeAnimatedLuaSprite('agentAp','bgs/deimos/agent appear',150,-150)
 	scaleObject('agentAp',0.9,0.9)
 	addAnimationByPrefix('agentAp','idle','agent appear',24,false)
@@ -80,6 +77,11 @@ function onCreate()
 	setProperty('soldatAp.alpha',0.01)
 	addLuaSprite('soldatAp')
 
+	makeAnimatedLuaSprite('finalChains','bgs/deimos/final',-1323,-644)
+	addAnimationByPrefix('finalChains','chain','cadenas',24,false)
+	setProperty('finalChains.alpha',0.01)
+	addLuaSprite('finalChains',true)
+---
 	makeAnimatedLuaSprite('barricada','bgs/deimos/barricada', 388,-44)
 	scaleObject('barricada',0.81,0.81)
 	addAnimationByPrefix('barricada','shot','barricada shot',24,false)
@@ -97,6 +99,7 @@ function onCreate()
 	addAnimationByPrefix('barricada_hank','idle','hank idle',24,true)
 	addAnimationByIndices('barricada_hank','what','hank cameo intro','0,0',24)
 	playAnim('barricada_hank','what',true)
+	setProperty('barricada_hank.alpha',0.01)
 	addLuaSprite('barricada_hank')
 
 	makeLuaSprite('bg1','bgs/deimos/bg 1',-1559,-210)
@@ -105,8 +108,8 @@ function onCreate()
 
 	makeLuaSprite('bg2','bgs/deimos/bg2',-1575,30)
 	setScrollFactor('bg2', 1, 0.78)
-	addLuaSprite('bg2',true)
-
+	addLuaSprite('bg2')
+-- stupid bf death
 	makeAnimatedLuaSprite('chains','bgs/deimos/chains',-1734,-1835)
 	addAnimationByPrefix('chains','cut','chains',24,false)
 	setProperty('chains.alpha',0.01)
@@ -115,7 +118,7 @@ function onCreate()
 	makeAnimatedLuaSprite('polvo','bgs/deimos/polvo',-421,123)
 	addAnimationByPrefix('polvo','smoke','polvo',24,false)
 	setProperty('polvo.alpha',0.01)
-	addLuaSprite('polvo',true)
+	addLuaSprite('polvo')
 
 	makeAnimatedLuaSprite('piedra','bgs/deimos/piedra',61,-1151)
 	addAnimationByPrefix('piedra','in','pilar in',24,false)
@@ -128,22 +131,34 @@ function onCreate()
 	setProperty('mira.alpha',0.01)
 	addLuaSprite('mira',true)
 
-	makeAnimatedLuaSprite('finalChains','bgs/deimos/final',-1323,-644)
-	addAnimationByPrefix('finalChains','chain','cadenas',24,false)
-	setProperty('finalChains.alpha',0.01)
-	addLuaSprite('finalChains',true)
-	
--- for something :)
-	setScrollFactor('agentAp',1,0)
-	setScrollFactor('guntAp',1,0)
-	setScrollFactor('soldatAp',1,0)
-	setScrollFactor('chains',1,0)
-	setScrollFactor('polvo',1,0)
-	setScrollFactor('piedra',0,0)
-	setScrollFactor('mira',1,0)
-	setScrollFactor('finalChains',1,0)
-	setScrollFactor('deimosAction',1,0)
+	makeLuaSprite('flicker',nil)
+	makeGraphic('flicker',1280,720,'000000')
+	setObjectCamera('flicker','camHUD')
+	setProperty('flicker.alpha',0.01)
+	addLuaSprite('flicker',true)
+-- intro stuff
+	makeAnimatedLuaSprite('titleIntro','bgs/deimos/title',280,280)
+    scaleObject('titleIntro',0.5,0.5)
+    addAnimationByPrefix('titleIntro','start','intro',24,false)
+    addAnimationByIndices('titleIntro','tick','intro','0,0',24)
+    playAnim('titleIntro','tick',true)
+	setProperty('titleIntro.alpha',0.01)
+	setObjectCamera('titleIntro','camHUD')
+    addLuaSprite('titleIntro')
 
+    makeLuaSprite('introLoading','bgs/deimos/loading',510,330)
+    scaleObject('introLoading',0.5,0.5)
+    setProperty('introLoading.alpha',0.01)
+    addLuaSprite('introLoading')
+	setObjectCamera('introLoading','camHUD')
+-- dialogue
+	makeAnimatedLuaSprite('gfDialogue','hud/deimos/gfText',70,(downscroll and 10 or 445))
+	addAnimationByPrefix('gfDialogue','dial','GF TEXT',24,false)
+	scaleObject('gfDialogue',0.666288308740068,0.666288308740068)
+	setProperty('gfDialogue.alpha',0.01)
+	setObjectCamera('gfDialogue','camHUD')
+	addLuaSprite('gfDialogue',true)
+-- shaders and deimos
 	runHaxeCode([[
 		game.initLuaShader('BgDeimos');
 		game.initLuaShader('TvGlitch');
@@ -159,8 +174,16 @@ function onCreate()
 		game.variables.set('deimosAction',deimosAction);
 		game.addBehindDad(deimosAction);
 	]])
-
+--- flash effect or smth idk
+	makeLuaSprite('whiteOverlay',nil)
+	makeGraphic('whiteOverlay',1280,720,'ffffff')
+	setObjectCamera('whiteOverlay','camHUD')
+	setProperty('whiteOverlay.alpha',0.01)
+	addLuaSprite('whiteOverlay')
 end
+
+
+
 introCompleted = false
 endingMoment = false
 hanked = false
@@ -250,6 +273,9 @@ function onEvent(n,v1,v2)
 			playSound('shoot',1)
 			setProperty('gf.skipDance',true)
 			runTimer('barrierDied',0.5)
+			setProperty('whiteOverlay.alpha',0.25)
+			setProperty('whiteOverlay.color',getColorFromHex('ECCF16'))
+			doTweenAlpha('whiteoverlayFlash','whiteOverlay',0.001,0.15)
 		elseif v1 == 'deathParry' then
 			playAnim('barricada','death',true)
 			playSound('die',0.9)
@@ -308,7 +334,7 @@ function deimosAct(anim)
 		cameraShake('camGame',0.04,0.15,true)
 		setProperty('whiteOverlay.alpha',0.25)
 		setProperty('whiteOverlay.color',getColorFromHex('ECCF16'))
-		doTweenAlpha('whiteoverlayFlash','whiteOverlay',0.01,0.15)
+		doTweenAlpha('whiteoverlayFlash','whiteOverlay',0.001,0.15)
 		playSound('deimosShot',1)
 	end
 end
@@ -334,36 +360,6 @@ function ray()
 	setProperty('rayo.flipX',getRandomBool(50))
 	playAnim('rayo','ray',true)
 	playSound('ray',1)
-end
-
--- im so sad this kinda working
-function precacheStuff() 
-	local sounds = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("sounds")]])..[[")]])
-	local images = {
-		chara = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/characters")]]),
-		hud = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/hud/deimos")]]),
-		bgs = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("images")]])..[[/bgs/deimos")]])
-	}
-	local imagesNameData = {}
-		imagesNameData.chara = images.chara
-		imagesNameData.hud = images.hud
-		imagesNameData.bgs = images.bgs
-	
-	for ty, val in pairs(imagesNameData) do
-		for i = 1, #val do
-			if stringEndsWith(val[i], '.png') then
-				local t = string.sub(val[i], 0, #val[i] - 4)
-				precacheImage(t) -- precacheImage literally does nothing :fire:
-			end
-		end
-	end	
-	for _, fn in pairs(sounds) do
-		if stringEndsWith(fn, '.ogg') then
-			local s = string.sub(fn, 0, #fn - 4)
-			precacheSound(s)
-		end
-	end
-	debugPrint('all stuff have been cached :)')
 end
 
 function shaderCoordFix()

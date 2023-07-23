@@ -1,6 +1,5 @@
 local deimosEvents = {
-    [202] = function()
-        setProperty('grunt1.alpha',1)
+    [200] = function()
 		playAnim('grunt1','intro',true)
     end,
     [245] = function()
@@ -20,7 +19,7 @@ local deimosEvents = {
     [918] = function()
         setProperty('mira.alpha',1)
 		playAnim('mira','lock',true)
-		playSound('mira',0.9)
+		playSound('mira',0.7)
     end,
     [944] = function()
         setProperty('camZooming',false)

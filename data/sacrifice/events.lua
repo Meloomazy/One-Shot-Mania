@@ -73,8 +73,7 @@ function onUpdate()
                 setPropertyFromGroup('opponentStrums',tonumber(event.args[1]),'visible',true)
                 setPropertyFromGroup('playerStrums',tonumber(event.args[1]),'visible',true)
             elseif event.name == 'Flash' then
-                setProperty('redOverlay.alpha', (event.args[1]))
-                doTweenAlpha('redOverlay', 'redOverlay', 0, 0.3)
+                cameraFlash('camGame','ff0000',tonumber(event.args[1]),true)
             elseif event.name == 'Black Flicker' then
                 if tonumber(event.args[2]) == 0.01 then
                     setProperty('flicker.alpha',0.01)

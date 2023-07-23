@@ -1,18 +1,4 @@
 intro = true
-function onCreate()
-    makeAnimatedLuaSprite('titleIntro','bgs/deimos/title',-370,-2400)
-    scaleObject('titleIntro',0.8,0.8)
-    addAnimationByPrefix('titleIntro','start','intro',24,false)
-    addAnimationByIndices('titleIntro','tick','intro','0,0',24)
-    playAnim('titleIntro','tick',true)
-    addLuaSprite('titleIntro')
-    setProperty('titleIntro.alpha',0.01)
-
-    makeLuaSprite('introLoading','bgs/deimos/loading',20,-2320)
-    scaleObject('introLoading',0.8,0.8)
-    setProperty('introLoading.alpha',0.01)
-    addLuaSprite('introLoading')
-end
 function onCreatePost()
 	if intro then
         setProperty('healthBarDei.alpha',0.01)
@@ -34,6 +20,10 @@ function onTweenCompleted(t)
 	end
 end
 function onStepHit()
+    if curStep == 175 and intro then
+		doTweenY('introCameraY','camFollow',220,10,'sineOut')
+        doTweenZoom('camGameIntro','camGame',0.569999999999997,9,'sineOut')
+	end
     if curStep == 255 then
         doTweenY('healthBarDeiIntro','healthBarDei',(downscroll and 30 or 455),3.5,'quadInOut')
         doTweenY('scoreImpactIntro','scoreImpact',(downscroll and 625 or 50),3.5,'quadInOut')
@@ -47,8 +37,4 @@ function onStepHit()
 			FlxFlicker.flicker(game.getLuaObject('healthBarDei'), 1.3, 0.35, true, false);
 		]])
     end
-	if curStep == 175 and intro then
-		doTweenY('introCameraY','camFollow',220,10,'sineOut')
-        doTweenZoom('camGameIntro','camGame',0.569999999999997,9,'sineOut')
-	end
 end

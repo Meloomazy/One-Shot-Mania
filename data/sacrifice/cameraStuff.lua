@@ -31,15 +31,5 @@ function onTweenCompleted(t)
 		camMove = true
 		xx = -200
 		yy = 240
-        -- fuck you lag spike
-        setScrollFactor('chains',1,1)
-        setScrollFactor('polvo',1,1)
-        setScrollFactor('piedra',1,1)
-        setScrollFactor('mira',1,1)
-        setScrollFactor('finalChains',1,1)
-        setScrollFactor('deimosAction',1,1)
-        setScrollFactor('agentAp',1,1)
-        setScrollFactor('guntAp',1,1)
-        setScrollFactor('soldatAp',1,1)
 	end
 end

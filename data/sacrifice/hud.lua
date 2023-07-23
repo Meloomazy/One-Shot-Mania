@@ -23,12 +23,6 @@ function onCreate()
     setObjectCamera('healthBarDei','camHUD')
     addLuaSprite('healthBarDei')
 
-    makeAnimatedLuaSprite('gfDialogue','hud/deimos/gfText',70,(downscroll and 10 or 445))
-	addAnimationByPrefix('gfDialogue','dial','GF TEXT',24,false)
-	scaleObject('gfDialogue',0.666288308740068,0.666288308740068)
-	setProperty('gfDialogue.alpha',0.01)
-	setObjectCamera('gfDialogue','camHUD')
-	addLuaSprite('gfDialogue')
 
     makeLuaText('scoreImpact','0',1280,0,625)
     setTextFont('scoreImpact','impact.ttf')
