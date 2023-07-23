@@ -1,6 +1,4 @@
 function onCreate()
-    luaDebugMode = true
-
     makeLuaSprite('barTop','hud/deimos/barTop',-45,565)
     scaleObject('barTop',0.666504618376276,0.666504618376276)
     setObjectCamera('barTop','camHUD')

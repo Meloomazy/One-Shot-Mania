@@ -1,6 +1,5 @@
 
 function onCreate()
-	luaDebugMode = true
 	addHaxeLibrary('FlxFlicker','flixel.effects')
 	addHaxeLibrary("FileSystem", "sys")
 	local sounds = runHaxeCode([[return FileSystem.readDirectory("]]..runHaxeCode([[return Paths.modFolders("sounds")]])..[[")]])
